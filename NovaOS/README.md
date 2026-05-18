@@ -10,9 +10,6 @@ NovaOS és un sistema operatiu experimental basat en CosmOS desenvolupat en C#.
 
 El projecte té com a objectiu crear un shell funcional amb eines pròpies, gestió de fitxers, operacions matemàtiques, historial de comandes i una interfície moderna preparada per evolucionar cap a un sistema gràfic.
 
----
-
-# Captures i demostració
 
 ## Pantalla inicial
 
@@ -69,65 +66,8 @@ NovaOS> history
 ## Altres recursos
 
 - GitHub Desktop
-- QEMU
 - Cosmos Graphic Subsystem (CGS)
 
----
-
-# Instal·lació i ús
-
-## Requisits previs
-
-Cal tenir instal·lat:
-
-- Visual Studio 2022
-- .NET SDK
-- Cosmos User Kit
-- VMware Workstation o QEMU
-
----
-
-## Clonar el repositori
-
-```bash
-git clone https://github.com/danielalvarado97/NovaOS.git
-```
-
----
-
-## Obrir el projecte
-
-```bash
-cd NovaOS
-```
-
-Obrir el fitxer `.sln` amb Visual Studio.
-
----
-
-## Executar el sistema operatiu
-
-1. Obrir Visual Studio com administrador.
-2. Seleccionar el perfil Cosmos.
-3. Executar amb `F5`.
-4. El sistema arrancarà dins la màquina virtual.
-
----
-
-# Estructura del projecte
-
-```text
-NovaOS/
-│
-├── assets/        → Logos i captures
-├── docs/          → Documentació del projecte
-├── src/           → Recursos futurs del sistema
-├── Kernel.cs      → Nucli principal del sistema operatiu
-├── README.md      → Documentació principal
-└── NovaOS.sln     → Solució de Visual Studio
-```
-
----
 
 # Funcionalitats implementades
 
@@ -291,37 +231,20 @@ El codi està separat en funcions específiques per facilitar el manteniment:
 
 ---
 
-# Interfície gràfica (CGS)
 
-NovaOS està preparat per evolucionar cap a Cosmos Graphic Subsystem (CGS).
-
-Les futures versions incorporaran:
-
-- Interfície gràfica pròpia
-- Disseny visual personalitzat
-- Finestres i menús
-- Colors i formes
-- Pantalla de benvinguda gràfica
-
----
-
-# Autors i contribucions
 
 ## Membres del projecte
 
 - Daniel Alvarado
-- Nom company 2
-- Nom company 3
 
----
 
 ## Contribucions
 
 | Membre | Tasques |
 |---|---|
 | Daniel | Kernel, shell i sistema de fitxers |
-| Company 2 | Comandes i calculadora |
-| Company 3 | README i documentació |
+|        | Comandes i calculadora |
+|        | README i documentació |
 
 ---
 
