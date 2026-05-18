@@ -261,8 +261,6 @@ Aquest projecte està sota la llicència MIT.
 
 ---
 
-# Roadmap
-
 ## Properes millores
 
 - [ ] Implementar interfície gràfica completa
